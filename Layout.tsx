@@ -4,6 +4,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import Entypo from '@expo/vector-icons/Entypo';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import Home from './pages/Home';
 
 
 const Layout = () => {
@@ -19,11 +20,7 @@ const Layout = () => {
 
     const renderContent = () => {
         if (currentPage === 'Home') {
-            return (
-                <View style={styles.otherContent}>
-                    <Text style={styles.mainText}>Home is Opened!</Text>
-                </View>
-            );
+            return <Home />;
         } else {
             return (
                 <View style={styles.otherContent}>
