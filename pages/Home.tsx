@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { View, StyleSheet, Dimensions, ScrollView, NativeSyntheticEvent, NativeScrollEvent } from 'react-native';
 
-import Post from './Post';
+import Post from '../components/Post';
 
 const { height } = Dimensions.get('window');
 const FOOTER_HEIGHT = 90;
